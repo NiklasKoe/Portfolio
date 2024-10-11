@@ -1,0 +1,12 @@
+<div class="my-container">
+    <div class="social-medias">
+        <div *ngFor="let social of socials" class="social">
+            <a mat-icon-button [href]="social.url">
+                <fa-icon [icon]="social.icon" />
+            </a>
+        </div>
+    </div>
+    <div class="welcome">
+        <h1>Willkommen auf meinem Profil</h1>
+    </div>
+</div>
