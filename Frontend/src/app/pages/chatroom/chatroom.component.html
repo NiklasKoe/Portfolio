@@ -1,0 +1,8 @@
+<div class="w-100" *ngFor="let offer of offers">
+    <div class="" *ngIf="offer.userId == 1" style="color: red">
+        <div class="own-message msg">{{offer.text}}</div>
+    </div>
+    <div class="" *ngIf="offer.userId != 1" style="color: blue">
+        <div class="opposite-message msg">{{offer.text}}</div>
+    </div>
+</div>

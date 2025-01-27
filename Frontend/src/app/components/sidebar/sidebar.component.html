@@ -1,0 +1,7 @@
+<!-- <div class="info-sidebar" [hidden]="currentlyHidden">
+    See my ..
+</div> -->
+<button (mouseenter)="toggleInfoVisibility(true)" (mouseout)="toggleInfoVisibility(false)" class="btn" *ngFor="let page of pages" (click)="emit(page)"> 
+    {{page.name}}
+</button>
+{{pages | json}}

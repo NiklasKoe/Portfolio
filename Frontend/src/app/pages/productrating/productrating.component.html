@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="card" *ngFor="let rating of ratings">
+        <div class="card-body">
+            <b>{{rating.productName}}</b>
+            <i>{{rating.providerName}}</i>
+            <ng-container *ngFor="let _ of [].constructor(rating.value)">*</ng-container>
+        </div>
+    </div>
+</div>
