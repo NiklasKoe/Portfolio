@@ -13,7 +13,7 @@ import { Page } from 'src/models';
     imports: [
         NgxTypewriterComponent,
         FontAwesomeModule,
-        SidebarComponent
+        
     ]
 })
 export class PersonalpageComponent implements OnInit {
@@ -33,7 +33,7 @@ export class PersonalpageComponent implements OnInit {
     deleteDelay: number = 3500;
     writeDelay: number = 50;
     currentId: number = 0;
-    words: string[] = ['Software Developer.', 'Fullstack Engineer.', 'Internal Applications.'];
+    words: string[] = ['Software Developer.', 'Technology Freak.'];
 
     @ViewChild('home') homeDiv!: HTMLElement;
     @ViewChild('skills') skillsDiv!: HTMLElement;

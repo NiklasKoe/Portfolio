@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button';
 import {
   faInstagram,
   faLinkedin,
@@ -12,7 +10,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [MatCardModule, MatButtonModule, FontAwesomeModule, CommonModule],
+  imports: [FontAwesomeModule, CommonModule],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.scss',
 })

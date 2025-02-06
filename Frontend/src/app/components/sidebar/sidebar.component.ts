@@ -6,7 +6,8 @@ import { Page } from 'src/models';
   selector: 'app-sidebar',
   imports: [CommonModule],
   templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.scss'
+  styleUrl: './sidebar.component.scss',
+  standalone: true
 })
 export class SidebarComponent {
 
